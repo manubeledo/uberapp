@@ -1,7 +1,6 @@
 {
   "name": "uber-app",
   "private": true,
-  "presets": ["next/babel"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
