@@ -16,19 +16,19 @@ export default function Home() {
             </Profile>
           </Header>
           <ActionButtons>
-            <Link href='/search'>
+            <Link href='/search' passHref>
             <ActionButton>
               <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png" />
               Ride
             </ActionButton>
             </Link>
-            <Link href='/search'>
+            <Link href='/search' passHref>
             <ActionButton>
               <ActionButtonImage src="https://i.ibb.co/n776JLm/bike.png" />
               Wheels
             </ActionButton>
             </Link>
-            <Link href='/search'>
+            <Link href='/search' passHref>
             <ActionButton>
               <ActionButtonImage src="https://i.ibb.co/5RjchBg/uberschedule.png" />
               Reserve

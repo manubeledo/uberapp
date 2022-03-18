@@ -42,7 +42,7 @@ const Confirm = () => {
     return (
         <Wrapper>
             <ButtonContainer>
-                <Link href='/search'>
+                <Link href='/search' passHref>
                 <BackButton src='https://cdn4.iconfinder.com/data/icons/navigation-40/24/back-1-256.png' />
                 </Link>
             </ButtonContainer>

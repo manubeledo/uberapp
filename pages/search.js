@@ -13,7 +13,7 @@ const Search = () => {
     return (
     <Wrapper>
         
-        <Link href='/'>
+        <Link href='/' passHref>
             <ActionButton>
             <BackButton src='https://cdn4.iconfinder.com/data/icons/navigation-40/24/back-1-256.png' />
             </ActionButton>
@@ -51,7 +51,7 @@ const Search = () => {
                 pickup: pickup,
                 dropoff: dropoff
             }    
-        }}>
+        }} passHref>
         <Confirm>
             Confirm Locations
         </Confirm>
