@@ -12,6 +12,8 @@ const Confirm = () => {
     const router = useRouter()
     const { pickup, dropoff } = router.query
 
+    console.log(process.env)
+
     const [ pickUpCoordinates, setPickUpCoordintes ] = useState()
     const [ DropOffCoordinates, setDropOffCoordintes ] = useState()
 
